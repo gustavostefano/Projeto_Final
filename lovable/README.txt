@@ -1,6 +1,6 @@
 Prompt e arquivos usados para o Lovable.
 
-Para poder rodar o arquivo é necessário fazer o upload dos seguintes arquivos:
+Para poder rodar o aplicartivo é necessário fazer o upload dos seguintes arquivos:
 
 
 uber-raw-data-apr14
