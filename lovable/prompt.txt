@@ -1,0 +1,67 @@
+**Prompt para Lovable — Dashboard Uber NYC 2014**
+
+Contexto:
+Sou aluno de Ciência de Dados (FAC SENAC DF) e desejo criar um dashboard interativo profissional com os dados da Uber em Nova York (abril–setembro/2014). Tenho os CSVs originais (`uber-raw-data-apr14.csv` ... `uber-raw-data-sep14.csv`) com as colunas `Date/Time`, `Lat`, `Lon`, `Base`.
+
+Objetivo:
+Criar um dashboard robusto, bonito e totalmente interativo, permitindo explorar padrões de corridas da Uber em NYC. O dashboard deve incluir mapas, gráficos, filtros globais e narrativas geradas por IA.
+
+Requisitos técnicos:
+- Permitir upload múltiplo dos CSVs
+- Padronizar colunas: `Date/Time → datetime`, `Lat → lat`, `Lon → lon`, `Base → base`
+- Criar colunas derivadas: `hour`, `weekday`, `month`
+- Remover valores nulos, duplicados e coordenadas geográficas inválidas
+- Criar um dataset único combinando abril–setembro 2014
+- Filtros globais: mês, dia da semana, base
+- Todos os componentes devem refletir os filtros (cross-filtering)
+- KPIs principais:
+    - Total de corridas
+    - Total de bases
+    - Período coberto
+- Gráficos obrigatórios:
+    1. Corridas por hora do dia
+    2. Corridas por dia da semana
+    3. Top bases por volume de corridas
+    4. Série temporal agregada por dia ou por mês
+    5. Heatmap weekday × hour
+- Mapa:
+    - Scattermapbox com as corridas
+    - Opção de limitar amostragem (10k / 50k / 100k pontos)
+    - Centralizado em NYC
+    - Tooltip: datetime + base
+- Exportações:
+    - Exportar dados filtrados em CSV
+    - Exportar gráficos em PNG
+- IA:
+    - Criar uma aba de “Resumo Inteligente”
+    - Gerar um texto de 8 a 12 linhas explicando insights baseados nos filtros aplicados
+    - O texto deve atualizar automaticamente ao alterar filtros
+
+Layout desejado:
+1. **Home / Visão Geral**
+    - KPIs
+    - Gráfico por hora
+    - Gráfico por dia da semana
+    - Top bases
+2. **Mapa Interativo**
+    - Mapa Scattermapbox com controles de amostragem
+3. **Análises Detalhadas**
+    - Heatmap weekday × hour
+    - Série temporal mensal
+4. **Relatório com IA**
+    - Texto gerado automaticamente
+    - Botão para copiar o relatório
+5. **Dataset**
+    - Tabela completa filtrável e exportável
+
+Design & UX:
+- Tema claro, limpo e responsivo
+- Cards arredondados e bem espaçados
+- Filtros sempre acessíveis no topo
+- Layout organizado, com boa hierarquia visual
+- Mensagens amigáveis quando um filtro não retorna dados
+
+Critério de qualidade:
+O dashboard deve ser estável, bonito, performático e intuitivo. Ele precisa permitir entender padrões temporais, geográficos e operacionais nas corridas da Uber em NYC usando apenas interação visual e filtros. É essencial que o mapa e os gráficos respondam dinamicamente aos filtros. A aba de IA deve ser clara, coerente e com insights úteis.
+
+Por favor, crie a aplicação completa com base nestas especificações.
