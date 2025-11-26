@@ -4,7 +4,7 @@ Projeto final de Deep Learning e Laboratório de Inovação
 # 🚗 Uber NYC 2014 — Analytics & Interactive Dashboard
 
 Projeto final da disciplina **Laboratório de Inovação IV (FAC SENAC DF)** — análise da mobilidade urbana com dados da Uber em Nova York (abril–setembro/2014).  
-Inclui **coleta via Kaggle API**, **limpeza e análise com Pandas**, e **dashboard interativo** construído no **Lovable** (e versão alternativa em Flask + Plotly).
+Inclui **coleta via Kaggle API**, **limpeza e análise com Pandas**, e **dashboard interativo** construído no **Lovable** .
 
 ## 📁 Estrutura do Projeto
 
