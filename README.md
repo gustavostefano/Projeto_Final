@@ -13,7 +13,6 @@ uber-nyc-2014-analytics/
 ├─ data/                # CSVs originais (abril a setembro/2014)
 ├─ processed/           # Arquivos de cache (parquet)
 ├─ notebooks/           # Notebooks do Google Colab (.ipynb)
-├─ app_flask/           # Versão Flask interativa com Plotly
 ├─ lovable/             # Prompt e assets do dashboard Lovable
 ├─ reports/             # Relatórios semanais (.docx / .pdf)
 ├─ README.md
