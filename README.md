@@ -57,29 +57,8 @@ Ele inclui:
 
 ---
 
-### ▶ 2.2 Dashboard Flask (execução local)
 
-Na pasta:
-app_flask/
-
-Passos:
-
-1. Coloque os CSVs originais dentro de `data/`
-
-2. Instale dependências:
-pip install -r requirements.txt
-
-3. Configure o token do Mapbox:
-export MAPBOX_TOKEN="SEU_TOKEN"
-
-4.Execute
-python app.py
-
-5.Acesse no navegador:
-
-http://127.0.0.1:5000
-
-▶ 2.3 Dashboard no Lovable
+▶ 2.2 Dashboard no Lovable
 
 O dashboard final do projeto será criado no Lovable usando o prompt:
 lovable/prompt.txt
